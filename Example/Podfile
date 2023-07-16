@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XAD_Example' do
+  pod 'XAD', :path => '../'
+
+  target 'XAD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
