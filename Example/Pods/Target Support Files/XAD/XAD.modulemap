@@ -1,0 +1,6 @@
+framework module XAD {
+  umbrella header "XAD-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -20,5 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonDidClick(_ sender: UIButton) {
+        let resourcePath = Bundle.main.path(forResource: "测试4", ofType: "tbz")
+//        XADHelper().unarchiver(withPath: resourcePath, dest: <#T##String#>, password: <#T##String?#>)
+        
+    }
 }
 

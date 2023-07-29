@@ -1,0 +1,6 @@
+framework module Pods_XAD_Example {
+  umbrella header "Pods-XAD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
